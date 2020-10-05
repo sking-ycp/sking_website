@@ -86,8 +86,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  body{
-    background-image: url("img/background.jpg");
+body{
+  overflow-x: hidden;
+}
+  .home{
+    background-image: url("../img/Background.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 /* ==========================================================================
    Helper classes
