@@ -93,8 +93,58 @@ body{
     background-image: url("../img/Background.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
   }
+
+  /* So here are the styles for the desktop & tablet navigation */
+
+  /* This targets the <nav> element itself...just centering thing up */
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* this target the <ul> inside of the <nav> and organizes the unordered list to be horizontal and without bullet points. */
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    list-style-type: none;
+  }
+
+  /* this styles the <li> inside of the <ul>, inside of the <nav> and adds the spaces to the links */
+  nav ul li{
+    margin: 10px 20px 10px 20px;
+  }
+
+  /* this styles the links themselves to look like you have in Figma */
+  nav ul li a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+  }
+
+
+  /* Blackbear Logo Section */
+
+/* this setups the whole background image to be visible and scroll */
+  .HomeSection{
+    height: 8000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* this setups the logo to be positioned on the page */
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+  }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
