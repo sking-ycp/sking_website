@@ -94,6 +94,16 @@ body{
     background-position: top;
     background-repeat: no-repeat;
   }
+  .about{
+    background-image: url("../img/aboutblackbear.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .tour{
+    background-image: url("../img/tourbanner.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+  }
 
   /* So here are the styles for the desktop & tablet navigation */
 
