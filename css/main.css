@@ -93,16 +93,8 @@ body{
     background-image: url("../img/Background.jpg");
     background-position: top;
     background-repeat: no-repeat;
-  }
-  .about{
-    background-image: url("../img/aboutblackbear.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-  }
-  .tour{
-    background-image: url("../img/tourbanner.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
+    /* I changed the background size to contain to ensure the full image size is present.  */
+    background-size: contain;
   }
 
   /* So here are the styles for the desktop & tablet navigation */
@@ -141,10 +133,11 @@ body{
 
 /* this setups the whole background image to be visible and scroll */
   .HomeSection{
-    height: 8000px;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* by adding a min-height: 2000px, I ensure the page scrolls at 1500px wide and will shrink on smaller screens */
+    min-height: 2000px;
   }
 
 /* this setups the logo to be positioned on the page */
