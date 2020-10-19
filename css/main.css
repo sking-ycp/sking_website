@@ -97,6 +97,12 @@ body{
     background-size: contain;
   }
 
+  .about{
+    background-image: url("../img/aboutblackbear.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
   /* So here are the styles for the desktop & tablet navigation */
 
   /* This targets the <nav> element itself...just centering thing up */
@@ -146,6 +152,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-left: 35%;
+    margin-bottom: 20%;
   }
 
 /* ==========================================================================
