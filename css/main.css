@@ -93,8 +93,8 @@ body{
     background-image: url("../img/Background.jpg");
     background-position: top;
     background-repeat: no-repeat;
-    /* I changed the background size to contain to ensure the full image size is present.  */
-    background-size: contain;
+    background-size: 100vw;
+ 
   }
 
   .about{
@@ -120,12 +120,12 @@ body{
     list-style-type: none;
   }
 
-  /* this styles the <li> inside of the <ul>, inside of the <nav> and adds the spaces to the links */
+
   nav ul li{
     margin: 10px 20px 10px 20px;
   }
 
-  /* this styles the links themselves to look like you have in Figma */
+
   nav ul li a{
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -137,22 +137,19 @@ body{
 
   /* Blackbear Logo Section */
 
-/* this setups the whole background image to be visible and scroll */
   .HomeSection{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* by adding a min-height: 2000px, I ensure the page scrolls at 1500px wide and will shrink on smaller screens */
-    min-height: 2000px;
+    height: 1600px;
   }
 
-/* this setups the logo to be positioned on the page */
   .logo{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 35%;
-    margin-bottom: 20%;
+    margin-top: 15%;
   }
 
 /* ==========================================================================
