@@ -102,27 +102,34 @@ body{
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100vw;
+    background-color: #E3F5FF;
   }
 
   h1{
     font-size: 100px;
     font-family: Arial;
-    margin-left: 8vw;
-    margin-top: 0vw;
+    margin-left: 60vw;
+    margin-top: 5vw;
+    color: #E3F5FF;
   }
 
   p{
     font-size: 15px;
     font-family: Arial;
-    margin-left: 8vw;
-    margin-right: 55VW;
+    margin-left: 15vw;
+    margin-right: 15VW;
     margin-top: -3vw;
     margin-bottom: 4vw;
     line-height: 17px;
   }
 
+  .info{
+    margin-top: 23vw;
+  }
+
   .boldme{
     font-weight: bold;
+    color: #60ABC8;
   }
   /* So here are the styles for the desktop & tablet navigation */
 
@@ -148,7 +155,7 @@ body{
 
 
   nav ul li a{
-    color: #fff;
+    color: #E3F5FF;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 25px;
@@ -171,6 +178,23 @@ body{
     align-items: center;
     margin-left: 35%;
     margin-top: 10%;
+  }
+
+  .tour{
+    background-image: url("../img/tourblackbear.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: #E3F5FF;
+  }
+
+  h2{
+    font-size: 100px;
+    font-family: Arial;
+    margin-left: 47vw;
+    margin-top: 5vw;
+    color: #E3F5FF;
+    text-align: center:
   }
 
 /* ==========================================================================
