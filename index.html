@@ -17,13 +17,27 @@
 
 <body class="home">
 
+    <!-- Off Canvas Navigation -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="tour.html">Tour</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+  <!-- Begin Main Content-->
+  <div id="main">
+
   <nav>
     <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Tour</a></li>
-      <li><a href="">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="tour.html">Tour</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
+    <!-- Hamburger Menu-->
+    <span class="hamburger" onclick="openNav()">&#9776;</span>
   </nav>
 
   <section class="HomeSection">
@@ -32,6 +46,7 @@
     </div>
   </section>
 
+</div>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/main.js"></script>
