@@ -178,7 +178,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-left: 35%;
-    margin-top: 10%;
+    margin-bottom: 30%;
   }
 
   .tour{
@@ -252,6 +252,8 @@ textarea{
 
 input[type="submit"] {
   width: 35%;
+  color: #60ABC8;
+  font-weight: bold;
 }
 
 .tourdate{
@@ -272,6 +274,8 @@ input[type="submit"] {
   flex-direction: column;
   width: 45%;
   margin: 0 auto;
+  font-family: arial;
+  font-weight: bold;
 }
 
 .tourinfo p{
@@ -288,6 +292,7 @@ input[type="submit"] {
   border: none;
   background-color: #60ABC8;
   margin: 2%;
+  font-weight: bold;
 }
 
 
