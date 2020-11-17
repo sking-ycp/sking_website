@@ -398,6 +398,16 @@ input[type="submit"] {
   font-size: 20px;
 }
 
+.tour h2{
+  font-size: 40px;
+  margin-left: 20vw;
+  margin-top: 5vw;
+}
+
+.tour{
+  background-size: 100%;
+}
+
 
   }
 
@@ -419,7 +429,20 @@ input[type="submit"] {
     .logo img{
       width: 80%;
     }
-      
+
+    .about h1 {
+        position: relative;
+        left: 185px;
+        top: 0px;
+        font-size: 25px;
+    }
+
+    .tour h2{
+      position: relative;
+      left: 63px;
+      top: 5px;
+      font-size: 25px;
+    }
 
     nav ul{
       display: none;
