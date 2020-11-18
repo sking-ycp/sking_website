@@ -399,16 +399,20 @@ input[type="submit"] {
 }
 
 .tour h2{
-  font-size: 40px;
-  margin-left: 20vw;
-  margin-top: 5vw;
+  font-size: 50px;
+  margin-left: 30vw;
+  margin-top: 3vw;
 }
 
 .tour{
   background-size: 100%;
 }
 
-
+.about h1 {
+    position: relative;
+    font-size: 70px;
+    margin-left: 55vw;
+}
   }
 
 
@@ -430,18 +434,31 @@ input[type="submit"] {
       width: 80%;
     }
 
-    .about h1 {
+    .about h1{
         position: relative;
         left: 185px;
         top: 0px;
         font-size: 25px;
     }
 
+    .about{
+      position: relative;
+      background-size: 190%;
+      left: 25vw;
+      top: 30vw;
+
+    }
+
     .tour h2{
       position: relative;
-      left: 63px;
+      left: 25px;
       top: 5px;
-      font-size: 25px;
+      font-size: 30px;
+    }
+
+    .tour{
+      position: relative;
+      background-size: 140%;
     }
 
     nav ul{
@@ -454,7 +471,7 @@ input[type="submit"] {
       color:#fff;
       display: inline;
       position: relative;
-      right: -42%;
+      left: 50vw;
     }
 
     h1, h2, h3{
