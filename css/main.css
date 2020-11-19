@@ -375,8 +375,10 @@ input[type="submit"] {
     margin-bottom: 33%;
   }
 
-  .info{
-    margin-top: 15%;
+  .info {
+      margin-top: 15%;
+      position: relative;
+      top: 30px;
   }
 
   .info p{
@@ -436,9 +438,9 @@ input[type="submit"] {
 
     .about h1{
         position: relative;
-        left: 185px;
-        top: 0px;
-        font-size: 25px;
+        right: 20vw;
+        bottom: 55px;
+        font-size: 50px;
     }
 
     .about{
@@ -449,11 +451,17 @@ input[type="submit"] {
 
     }
 
+    .info {
+        margin-top: 15%;
+        position: relative;
+        top: 30px;
+    }
+
     .tour h2{
       position: relative;
       left: 25px;
-      top: 5px;
-      font-size: 30px;
+      top: 7px;
+      font-size: 26px;
     }
 
     .tour{
@@ -465,14 +473,15 @@ input[type="submit"] {
       display: none;
     }
 
-    .hamburger{
-      font-size:30px;
-      cursor:pointer;
-      color:#fff;
-      display: inline;
-      position: relative;
-      left: 50vw;
-    }
+    .hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    display: inline;
+    position: relative;
+    left: 41vw;
+    bottom: 30vw;
+  }
 
     h1, h2, h3{
       font-size: 30px;
