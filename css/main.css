@@ -436,12 +436,18 @@ input[type="submit"] {
       width: 80%;
     }
 
-    .about h1{
-        position: relative;
-        right: 20vw;
-        bottom: 55px;
-        font-size: 50px;
-    }
+    span#aboutmenu {
+      position: relative;
+      left: 50px;
+      top: -90px;
+  }
+
+    .about h1 {
+      position: relative;
+      right: 28vw;
+      bottom: 55px;
+      font-size: 40px;
+  }
 
     .about{
       position: relative;
@@ -452,10 +458,12 @@ input[type="submit"] {
     }
 
     .info {
-        margin-top: 15%;
-        position: relative;
-        top: 30px;
-    }
+      margin-top: 15%;
+      position: relative;
+      top: 30px;
+      left: -20px;
+      width: 360px;
+  }
 
     .tour h2{
       position: relative;
@@ -479,8 +487,7 @@ input[type="submit"] {
     color: #fff;
     display: inline;
     position: relative;
-    left: 41vw;
-    bottom: 30vw;
+    left: 140px;
   }
 
     h1, h2, h3{
